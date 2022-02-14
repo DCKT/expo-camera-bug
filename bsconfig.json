@@ -3,7 +3,15 @@
   "reason": {
     "react-jsx": 3
   },
-  "bs-dependencies": ["@rescript/react", "rescript-react-native"],
+  "bs-dependencies": [
+    "@rescript/react",
+    "rescript-react-native",
+    "reason-react",
+    "@rescript-react-native/safe-area-context",
+    "reason-promise",
+    "restorative",
+    "rescript-react-update"
+  ],
   "bs-dev-dependencies": [],
   "package-specs": [
     {
